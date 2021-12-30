@@ -38,3 +38,14 @@ This folder contains 4 files:
 Train and test data set has client data such as : age of the client, their job type, their marital status, etc. of a retail banking institution. After statistical data analysis of both the data sets, two classification models - Logistic Regression and Decision Tree are applied to classify whether the new clients in the test data set will subscribe to the term deposit or not. The evaluation metric used to figure out the best one is accuracy. 
 
 This project was done during the Data Science Training provided by Internshala Trainings. 
+
+
+# Recommendation Engine Project
+
+This folder contains 2 files:
+
+1. goodreadData_edited_2.csv - This is the dataset of books used in the machine learning model.
+
+2. Book Recommendation Engine.ipynb - This is the python notebook that contains the recommendation engine.
+
+The data set has record of books scraped from Goodreads with attributes like book title, author, genre, description, etc. After analysis of the data set, a recommendation engine is built using content - based filtering. The model suggests books based on book title and book description provided as input.
